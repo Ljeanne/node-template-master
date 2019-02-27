@@ -8,7 +8,7 @@
  5. ```git add .``` déployer à Heroku.
  5. ```git commit -m "first commit"``` commit Heroku.
  4. ```git push heroku master``` déployer Heroku.
- 5. ```heroku open``` to see the webpage working in a browser.
+ 5. ```heroku open``` voir la page
  
  **Accès**
  https://gentle-brushlands-72478.herokuapp.com/
