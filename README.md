@@ -1,5 +1,5 @@
 **Prérequis**
-- An account on [Heroku](https://heroku.com) platform.
+- Un compte sur la plate-forme [Heroku](https://heroku.com)
 
 **Installation**
  1. Clone le repository.
