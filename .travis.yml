@@ -1,4 +1,15 @@
-stages:
-  - compile
-  - test
-  - deploy
+sudo: false
+dist: trusty
+
+env:
+- TEST_SUITE=integration_tests
+- TEST_SUITE=unit_tests
+
+script: echo "Running tests ..."
+
+jobs:
+  include:
+    - stage: deploy
+      env: TEST_SUITE=none
+      install: skip # bundle install is not required
+      script: bash ./deploy.sh
